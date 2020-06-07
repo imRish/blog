@@ -2,7 +2,7 @@
 layout: post
 title: Why should you refactor?
 date: 2020-06-8 19:22
-summary: Your payment of techincal debt may be due.
+summary: Your payment of technical debt may be due.
 categories: Pixyll
 ---
 
