@@ -10,9 +10,11 @@ Hey, I am **Rishabh Pandey**.
 ![Me]({{ site.url }}/images/rish.jpeg){:id="about-image"}
 
 
-A full-stack developer who works with startups and companies to turn their ideas into applications.
+A software **consultant** who works with startups and companies to turn their ideas into web applications.
 
-I'm a software consultant and trainer since 2014. I have worked on everything from small scripts to huge SAAS applications. I have built some amazing things for the web with some awesome and highly efficient people. As a software engineer, I enjoy implementing complex ideas in a simple way. My programming style emphasizes on cleanliness and maintainability. My goal is to always build applications that are scalable and efficient.
+I've been a full-stack developer and trainer since 2014. I have built some neat applications in the SAAS space and other industries. I've been fortunate enough to work with some great people and built amazing relationships.
+
+As an engineer, I enjoy implementing complex ideas in a simple way. My programming style emphasizes on cleanliness and maintainability.
 
 When I'm not coding the next great thing, I'm busy making music and learning new stuff.
 

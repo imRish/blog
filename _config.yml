@@ -4,7 +4,7 @@ email:       hey@rishpandey.com
 author:      Rish Pandey
 description: "Personal Blog"
 baseurl:     ""
-url:         "https://blog.rishpandey.com/"
+url:         "https://rishpandey.com/"
 future: true
 date_format: "%b %-d, %Y"
 header_pages:
