@@ -9,6 +9,8 @@ future: true
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
+ - projects.html
+ - testimonials.html
  - contact.html
 
 # Google services
@@ -66,17 +68,17 @@ telegram_username:
 vk_id:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 # Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
+share_facebook: true
+share_twitter: true
 share_googleplus: false
-share_linkedin: false
+share_linkedin: true
 share_digg: false
 share_tumblr: false
-share_reddit: false
+share_reddit: true
 share_stumbleupon: false
-share_hackernews: false
+share_hackernews: true
 
 text:
   pagination:
@@ -101,14 +103,14 @@ text:
     coming_soon: 'Coming soon...'
   contact:
     email:    'Email Address'
-    content:  'What would you like to say?'
-    subject:  'New submission!'
-    submit:   'Say Hello'
+    content:  'How can I help you?'
+    subject:  'New enquiry!'
+    submit:   'Submit'
     ajax:
       sending:  'sending..'
       sent:     'Message sent!'
       error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+  thanks: 'Thanks for reaching out. I will get back to you with the next steps as soon as possible.'
   og_locale: 'en_US'
 
 # Build settings
