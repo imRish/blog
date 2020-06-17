@@ -6,46 +6,18 @@ tags: contact
 ---
 
 <div class="py2">
-  <p>I have helped many people with a range of problems.</p>
-  {% if site.ajaxify_contact_form %}
-  <form class="form-stacked">
-    <label>
-      Email
-      <input type="text" name="email" class="field-light"
-        placeholder="{{ site.text.contact.email | default: "Email Address" }}">
-    </label>
+  {% for testimonial in site.data.testimonials %}
+  <div class="py2">
+    <h3>{{ testimonial.testimonials_message }}</h3>
+    <p>
+      {{ testimonial.person_name }}
+      {% if testimonial.company %}
+      - <a href="{{ testimonial.company_url }}">{{ testimonial.company }}</a>
+      {% endif %}
+    </p>
+  </div>
+  {% endfor %}
 
-    <label>
-      Content
-      <textarea type="text" name="content" class="field-light" rows="5"
-        placeholder="{{ site.text.contact.content | default: "What would you like to say?" }}"
-        style="resize: vertical"></textarea>
-    </label>
-
-    <input type="text" name="_gotcha" style="display:none" />
-
-    <button type='submit'
-      class="button button-blue button-big mobile-block">{{ site.text.contact.submit | default: "Let's Talk" }}</button>
-  </form>
-  {% else %}
-  <form action="https://formspree.io/mzbjroqy" method="POST" class="form-stacked">
-    <div>
-      <input type="text" name="email" class="field-light"
-        placeholder="{{ site.text.contact.email | default: "Email Address" }}">
-    </div>
-    <div class="py1">
-      <textarea type="text" name="content" class="field-light" rows="5"
-        placeholder="{{ site.text.contact.content | default: "What would you like to say?" }}"
-        style="resize: vertical"></textarea>
-    </div>
-    <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks/" />
-    <input type="hidden" name="_subject" value="{{ site.text.contact.subject | default: "New submission!" }}" />
-    <input type="text" name="_gotcha" style="display:none" />
-
-    <input type="submit" class="button button-blue button-big mobile-block"
-      value="{{ site.text.contact.submit | default: "Let's Talk" }}">
-  </form>
-  {% endif %}
 </div>
 
 {% if site.ajaxify_contact_form %}
