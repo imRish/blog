@@ -4,6 +4,7 @@ title: Why should you refactor?
 date: 2020-06-8 19:22
 summary: Your payment of technical debt may be due.
 categories: refactoring productivity clean-code
+permalink: why-refactor
 ---
 You have been working on this feature for a long time. When the client pitched this great new addition, you felt this would take a week. And here you are working on a Saturday and nothing feels right. You start to question everything about your career choices, the impostor syndrome kicks in.
 
@@ -44,8 +45,6 @@ A few years go by. You keep adding features, layer upon layers of new code. Ever
 > “Refactoring is a disciplined technique for restructuring an existing body of code, altering its internal structure without changing its external behavior.”
 >
 > Martin Fowler
->
->
 
 Fear not Padavan, refactoring is the way we can repay this debt. Just like any other loan, we keep paying the debt via refactoring and get to keep our sanity.
 

@@ -16,7 +16,7 @@ h6 {
   font-weight: $heading-font-weight;
   line-height: $heading-line-height;
   margin-top: 1em;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 p,
@@ -68,16 +68,19 @@ blockquote p {
 h1,
 .h1 {
   font-size: $h1;
+  letter-spacing: 0.4px;
 }
 
 h2,
 .h2 {
   font-size: $h2;
+  letter-spacing: 0.3px;
 }
 
 h3,
 .h3 {
   font-size: $h3;
+  letter-spacing: 0.2px;
 }
 
 h4,

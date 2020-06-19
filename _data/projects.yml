@@ -1,4 +1,17 @@
-- title:
+- title: Zen Mindmap
+  description: Zen Mind Map is the simplest online free software to create mind maps and brainstorm. With a minimal and intuitive user interface, creating mindmaps or concept maps with our free online mind map maker is very easy and delightful. Our online mind mapping software also has Export and Publish features, which allow users to easily present and share their work.
+  image: zenmindmap.png
+  url: https://www.zenmindmap.com/
+  post:
+
+- title: The Definitive Guide to Laravel
   description:
-  picture:
-  url:
+  image: laravel.jpg
+  url: https://www.oreilly.com/library/view/web-development-series/9781634626156/
+  post:
+
+- title: Snippeteer
+  description: SNIPPETEER is a productivity tool that rescues you from retyping. A text snippet manager you always needed. It works on Windows and MacOS.
+  image: snippeteer.png
+  url: https://github.com/rishpandey/snippeteer
+  post:

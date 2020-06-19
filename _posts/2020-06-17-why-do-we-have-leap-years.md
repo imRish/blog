@@ -2,6 +2,7 @@
 layout: post
 title: Why do we have leap years?
 summary: Approximating  365.242375  days in a calendar year
+permalink: why-leap-years-exist
 ---
 ## How to check if a year is a leap year?
 
