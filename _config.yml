@@ -13,6 +13,10 @@ header_pages:
  - testimonials.html
  - contact.html
 
+collections:
+  me:
+    output: true
+
 # Google services
 google_verification:
 # Use either direct GA implementation or set up GTM account
@@ -118,13 +122,24 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 # permalink:    /:title
-paginate:     8
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 8
+  permalink: '/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
 sass:
   style: compressed
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate-v2
 # https://github.com/jekyll/jekyll/issues/2938
 exclude:
   - Gemfile

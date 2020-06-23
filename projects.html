@@ -5,33 +5,31 @@ permalink: /featured-projects/
 tags: contact
 ---
 
-<div class="py2">
-    {% for project in site.data.projects %}
-    <div class="py2">
-        <a href="{{ project.url }}">
-            <h2>{{ project.title }}</h2>
-        </a>
 
-        {% if project.image %}
-        <p>
-            <img src="/images/uploads/{{ project.image }}" alt="">
-        </p>
-        {% endif %}
+{% for project in site.data.projects %}
+<div class="">
+    <a href="{{ project.url }}">
+        <h2>{{ project.title }}</h2>
+    </a>
 
-        {% if project.description %}
-        <p>
-            {{ project.description }}
-        </p>
-        {% endif %}
-
-
-        {% if project.post %}
-        <a href="{{project.post}}">Lean more...</a>
-        {% endif %}
-    </div>
-    {% if forloop.last == false %}
-    <hr>
+    {% if project.image %}
+    <p>
+        <img src="/images/uploads/{{ project.image }}" alt="">
+    </p>
     {% endif %}
-    {% endfor %}
 
+    {% if project.description %}
+    <p>
+        {{ project.description }}
+    </p>
+    {% endif %}
+
+
+    {% if project.post %}
+    <a href="{{project.post}}">Lean more...</a>
+    {% endif %}
 </div>
+{% if forloop.last == false %}
+<div class="mb4"></div>
+{% endif %}
+{% endfor %}

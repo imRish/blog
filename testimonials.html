@@ -5,17 +5,18 @@ permalink: /testimonials/
 tags: contact
 ---
 
-<div class="py2">
-  {% for testimonial in site.data.testimonials %}
-  <div class="py2">
-    <h3>{{ testimonial.testimonials_message }}</h3>
-    <p>
-      {{ testimonial.person_name }}
-      {% if testimonial.company %}
-      - <a href="{{ testimonial.company_url }}">{{ testimonial.company }}</a>
-      {% endif %}
-    </p>
-  </div>
-  {% endfor %}
 
+{% for testimonial in site.data.testimonials %}
+<div>
+  <h3>{{ testimonial.testimonials_message }}</h3>
+  <p>
+    {{ testimonial.person_name }}
+    {% if testimonial.company %}
+    - <a href="{{ testimonial.company_url }}">{{ testimonial.company }}</a>
+    {% endif %}
+  </p>
 </div>
+{% if forloop.last == false %}
+<div class="mb3"></div>
+{% endif %}
+{% endfor %}
