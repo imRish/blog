@@ -6,16 +6,16 @@
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   min-height: 100vh;
 }
 
 .site-wrap {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 footer {
@@ -26,4 +26,34 @@ footer {
   font-weight: $footer-font-weight;
   padding: $footer-padding;
   text-align: center;
+  margin-top: 2rem;
+  #mc_embed_signup {
+    // display: inline-block;
+    form {
+      text-align: left;
+    }
+    h4 {
+      margin-top: 0;
+    }
+    input {
+      font-family: $heading-font-family;
+      height: 2rem;
+      margin: 0;
+      border: 1px solid;
+    }
+
+    input#mc-embedded-subscribe {
+      margin-left: 5px;
+      transition: background 0.2s;
+      &:hover {
+        transform: scale(1.02);
+        border: none;
+        background-color: $dark-gray;
+      }
+    }
+  }
+  .copy {
+    text-align: left;
+    margin-top: 1rem;
+  }
 }
