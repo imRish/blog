@@ -3,6 +3,7 @@ layout: post
 title: Why do we have leap years?
 summary: Approximating  365.242375  days in a calendar year
 permalink: why-leap-years-exist
+description: What are leap years? Why do they exist? Leap years exist because the Earth rotates about 365.242375 times a year. We have 365 days in a normal year and this leads to 0.242375 days extra. 29th Februrary exists to make up for this fraction in a genius way.
 ---
 ## How to check if a year is a leap year?
 
@@ -10,6 +11,8 @@ permalink: why-leap-years-exist
 
 ## What it means?
 Every 4th year is a leap year, except it's not every 100th year, except it is every 400th year.
+
+![Leap year calendar](https://images.unsplash.com/photo-1541696395-2abb1755c89a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1257&q=80)
 
 ## But, why?
 Leap years exist because the Earth rotates about 365.242375 times a year. We have 365 days in a normal year and this leads to 0.242375 days extra. 29th Februrary exists to make up for this fraction.

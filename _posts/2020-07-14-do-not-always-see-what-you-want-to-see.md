@@ -2,12 +2,14 @@
 layout: post
 title: Don't see only what you want to see
 summary: Making rational decisions backed by facts is harder than we think
+description: Confirmation Bias is a tendency to favor or look for information that supports one's personal beliefs. We talk more about Confirmation Bias, how it affects your decision making and how we can address and tackle it.
+image: /images/posts/confirmation-bias.png
 permalink: check-yo-confirmation-bias
 ---
 
 People have strong opinions. Some people are more passionate than others in their values and beliefs, but everyone has them. Making rational decisions where the emotion is strong is hard, overlooking the facts that don't agree with our values is very often the default mode.
 
-The scientific term for this behavior is [Confirmation Bias](https://en.wikipedia.org/wiki/Confirmation_bias#:~:text=Confirmation%20bias%20is%20the%20tendency,evidence%2Dbased%20decision%2Dmaking.). A tendency to favor or look for information that supports one's personal belief, a very common [cognitive bias](https://www.verywellmind.com/what-is-a-cognitive-bias-2794963#:~:text=A%20cognitive%20bias%20is%20a,and%20judgments%20that%20they%20make.).
+The scientific term for this behavior is [Confirmation Bias](https://en.wikipedia.org/wiki/Confirmation_bias#:~:text=Confirmation%20bias%20is%20the%20tendency,evidence%2Dbased%20decision%2Dmaking.). A tendency to favor or look for information that supports one's personal beliefs, a very common [cognitive bias](https://www.verywellmind.com/what-is-a-cognitive-bias-2794963#:~:text=A%20cognitive%20bias%20is%20a,and%20judgments%20that%20they%20make.).
 
 ![Confirmation Bias](/images/posts/confirmation-bias.png)
 
