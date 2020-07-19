@@ -130,12 +130,12 @@ text:
 markdown: kramdown
 redcarpet:
   extensions: ["smart", "tables", "with_toc_data"]
-# permalink:    /:title
+# permalink: /:title
 
 # Pagination Settings
 pagination:
   enabled: true
-  per_page: 2
+  per_page: 5
   permalink: "/page/:num/"
   title: " - page :num"
   limit: 0
