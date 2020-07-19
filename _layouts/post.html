@@ -73,7 +73,7 @@ if site.show_post_footers %} {% include post_footer.html %} {% endif %}
   data-numposts="{{ site.facebook_comments_number }}"
 ></div>
 {% endif %} {% if site.show_related_posts %}
-<div class="related-post-section">
+<!-- <div class="related-post-section">
   <h2 class="related-post-title">
     {{ site.text.post.related_posts | default: "Related Posts" }}
   </h2>
@@ -85,5 +85,25 @@ if site.show_post_footers %} {% include post_footer.html %} {% endif %}
     </a>
   </div>
   {% endfor %}
+</div> -->
+
+<div
+  class="pagination mt2"
+  style="display: flex; justify-content: space-between;"
+>
+  {% if page.previous.url %}
+  <div class="">
+    <a class="pagination-item prev" href="{{page.previous.url}}">Previous</a>
+  </div>
+  {% endif %}
+  <div>
+    <a class="random" href="#">Random</a>
+  </div>
+  {% if page.next.url %}
+  <div class="">
+    <a class="pagination-item next" href="{{page.next.url}}">Next</a>
+  </div>
+  {% endif %}
 </div>
+<script src="../js/random-post.js"></script>
 {% endif %}

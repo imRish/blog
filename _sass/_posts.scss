@@ -62,6 +62,22 @@
       margin-right: 1rem;
     }
   }
+  .share-links-sm {
+    .fa {
+      color: unset;
+      font-size: 1rem;
+      border: 1px solid;
+      width: 1.5rem;
+      height: 1.5rem;
+      border-radius: 1.5rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: none;
+      margin-right: 1rem;
+    }
+  }
 }
 
 .related-post-section {
