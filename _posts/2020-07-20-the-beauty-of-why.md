@@ -3,7 +3,7 @@ layout: post
 title: The beauty of Why
 summary: The single trait that made us the greatest species in the world.
 description: Why is the question that exposes purpose. The single trait that made us the greatest species in the world. To ask better questions and understand the answers. We must keep learning and broaden our framework, to get a better understanding of ourselves, our purpose and the world.
-permalink: the-beauty-of-why
+slug: the-beauty-of-why
 ---
 
 I was listening to Richard Feynman the other day and loved how he explained the nature of every question that starts with a "why".

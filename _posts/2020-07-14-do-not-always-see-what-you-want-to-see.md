@@ -4,7 +4,7 @@ title: Don't see only what you want to see
 summary: Making rational decisions backed by facts is harder than we think
 description: Confirmation Bias is a tendency to favor or look for information that supports one's personal beliefs. We talk more about Confirmation Bias, how it affects your decision making and how we can address and tackle it.
 image: /images/posts/confirmation-bias.png
-permalink: check-yo-confirmation-bias
+slug: check-yo-confirmation-bias
 ---
 
 People have strong opinions. Some people are more passionate than others in their values and beliefs, but everyone has them. Making rational decisions where the emotion is strong is hard, overlooking the facts that don't agree with our values is very often the default mode.

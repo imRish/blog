@@ -3,9 +3,10 @@ layout: post
 title: Stick to your stack
 summary: A craftsman is only as good as her tools, pick your stack wisely and
   stick to it.
-permalink: stick-to-stack
+slug: stick-to-stack
 description: The craftsman mindset is a great way of thinking about your work. They stands by her work just like we must. We programmers are fickle creatures. Why does it make sense to stick to your stack and build expertise.
 ---
+
 In the book, the pragmatic programmer, there is a section where the author compares a programmer to a craftsman.
 
 The craftsman or artisan mindset is a great way of thinking about our work. An artisan stands by her choices and work just like we must. Every artisan needs her favorite tools to do their finest work, as we programmers need our favorite programming languages, our editors and our stack.

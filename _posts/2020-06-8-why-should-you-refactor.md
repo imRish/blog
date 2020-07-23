@@ -4,7 +4,7 @@ title: Why should you refactor?
 date: 2020-06-8 19:22
 summary: Your payment of technical debt may be due.
 categories: refactoring productivity clean-code
-permalink: why-refactor
+slug: why-refactor
 description: Refactoring is a technique for restructuring and altering the internal structure of a codebase without changing its external behavior. We refactor to pay the technical debt. Technical debt is the implied cost of additional rework caused by architectural oversight or choosing an easy solution now instead to doing it right.
 ---
 

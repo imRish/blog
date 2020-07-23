@@ -28,6 +28,8 @@ pagination:
       <article class="post-content">
         {{ post.content }}
       </article>
+      {% if site.show_sharing_icons %} {% include share_buttons_home.html %} {%
+      endif %}
     </div>
     {% endfor %}
   </div>
