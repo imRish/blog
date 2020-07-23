@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Do you have a dream?
-summary: The single trait that made us the greatest species in the world.
-description: Why is the question that exposes purpose. The single trait that made us the greatest species in the world. To ask better questions and understand the answers. We must keep learning and broaden our framework, to get a better understanding of ourselves, our purpose and the world.
+summary: Don't run the infinite race.
+description: What is your ultimate goal? Why goal setting is essential to success? If you want to succeed but you don't have a clear goal, you're running the infinite race. If you want to achieve more you need to define what "more" exactly mean to you? How do you see the future, with Apprehension or with Anticipation. How can you design your future? Set your goals, don't sell out, don't compromise and reflect on your progress.
 slug: whats-your-dream
 ---
 
