@@ -21,7 +21,7 @@ function loadPostsList() {
       postsList = JSON.parse(this.responseText);
     }
   };
-  xhttp.open("GET", "all_posts.json", true);
+  xhttp.open("GET", "/all_posts.json", true);
   xhttp.send();
 }
 
@@ -30,8 +30,8 @@ function loadNextPost() {
     "#all-posts-container .post:last-child a.post-link"
   ).href;
 
-  lastLoadedPost = "/" + lastLoadedPost.split("/").pop();
-
+  lastLoadedPost = "/blog/" + lastLoadedPost.split("/").pop();
+  console.log("last", lastLoadedPost);
   var nextPost = null;
   Array.from(postsList.posts).forEach(function (post, index, arr) {
     if (post == lastLoadedPost) {
